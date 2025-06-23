@@ -7,8 +7,8 @@ body { padding: 0; margin: 0 }
   width: 100%;           /* 先鋪滿視窗寬度 */
   height: auto;
   aspect-ratio: 16 / 9;  /* 讓瀏覽器自動算出高度保持 16:9 */
-  max-width: 80vw;      /* 絕不超過螢幕寬 */
-  max-height: 80vh;     /* 絕不超過螢幕高（不會出捲軸） */
+  max-width: 50vw;      /* 絕不超過螢幕寬 */
+  max-height: 50vh;     /* 絕不超過螢幕高（不會出捲軸） */
   object-fit: contain;   /* 舊版瀏覽器保險措施 */
 }
 .unity-mobile #unity-canvas { width: 100%; height: 100% }
