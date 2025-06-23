@@ -4,11 +4,11 @@ body { padding: 0; margin: 0 }
 #unity-container.unity-mobile { position: fixed; width: 80%; height: 80% }
 #unity-canvas{
   background: #231F20;   /* 原本就有的顏色，可自行換掉 */
-  width: 60%;           /* 先鋪滿視窗寬度 */
+  width: 100%;           /* 先鋪滿視窗寬度 */
   height: auto;
   aspect-ratio: 16 / 9;  /* 讓瀏覽器自動算出高度保持 16:9 */
-  max-width: 100vw;      /* 絕不超過螢幕寬 */
-  max-height: 100vh;     /* 絕不超過螢幕高（不會出捲軸） */
+  max-width: 80vw;      /* 絕不超過螢幕寬 */
+  max-height: 80vh;     /* 絕不超過螢幕高（不會出捲軸） */
   object-fit: contain;   /* 舊版瀏覽器保險措施 */
 }
 .unity-mobile #unity-canvas { width: 100%; height: 100% }
